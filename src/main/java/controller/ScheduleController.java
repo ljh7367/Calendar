@@ -22,4 +22,16 @@ package controller;
         public ResponseEntity<ScheduleResponseDto> findScheduleById(@PathVariable Long id) {
             return new ResponseEntity<>(scheduleService.findScheduleById(id), HttpStatus.OK);
         }
-}
+
+        // 일정 생성
+        @PutMapping
+        public ResponseEntity
+
+
+        // 일정 삭제
+        @DeleteMapping("/{id}")
+        public ResponseEntity
+
+
+        // 일정 수정
+        @UpdateMapping("/{id}")
